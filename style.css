@@ -608,11 +608,11 @@ body {
 }
 
 .important-item.warning {
-    border-left: 4px solid var(--dark-gray);
+    border-left: none;
 }
 
 .important-item.warning::before {
-    background: linear-gradient(135deg, var(--gray), var(--dark-gray));
+    content: none;
 }
 
 .important-icon {
@@ -644,6 +644,10 @@ body {
     color: var(--text-light);
     margin-bottom: 8px;
     font-family: 'Kharkiv Tone', sans-serif;
+}
+
+.very-bold {
+    font-weight: bolder;
 }
 
 .accent-text {
