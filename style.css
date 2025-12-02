@@ -647,7 +647,8 @@ body {
 }
 
 .very-bold {
-    font-weight: bolder;
+    font-weight: 900;
+    color: var(--text);
 }
 
 .accent-text {
@@ -1502,5 +1503,9 @@ body {
     .examples-content p {
         font-size: 1rem;
         margin-bottom: 6px;
+    }
+
+    .very-bold {
+        font-size: 1.2rem;
     }
 }
