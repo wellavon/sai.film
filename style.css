@@ -629,7 +629,7 @@ body {
 }
 
 .important-item.warning .important-icon {
-    background: var(--gray);
+    background: linear-gradient(135deg, var(--primary-light), var(--primary));
 }
 
 .important-content h3 {
